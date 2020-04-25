@@ -1,11 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="SuperMemoAssistant.Sdk">
   <PropertyGroup>
     <OutputType>Library</OutputType>
     <Deterministic>true</Deterministic>
-    <AssemblyVersion>2.0.4.6</AssemblyVersion>
-    <FileVersion>2.0.4.6</FileVersion>
-    <Version>2.0.4</Version>
+    <AssemblyVersion>2.0.5</AssemblyVersion>
+    <FileVersion>2.0.5</FileVersion>
+    <Version>2.0.5</Version>
+  </PropertyGroup>
+  <PropertyGroup Label="Package">
+    <Title>SuperMemo Assistant Image Service</Title>
+    <Description>Facilitate working with images.</Description>
+    <PackageProjectUrl>https://github.com/supermemo/SuperMemoAssistant.Services.Medias.Images</PackageProjectUrl>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <PackageTags>SuperMemo,SuperMemoAssistant,Service,Services,Image,Images</PackageTags>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="PresentationFramework" />
@@ -26,15 +33,15 @@
       <Version>0.1.0.3</Version>
     </PackageReference>
     <PackageReference Include="MSBuild.Tools">
-      <Version>0.2.58</Version>
+      <Version>0.2.60</Version>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="PluginManager.Interop">
-      <Version>0.2.1.37</Version>
+      <Version>0.2.1.46</Version>
     </PackageReference>
     <PackageReference Include="SuperMemoAssistant.Interop">
-      <Version>2.0.4.7</Version>
+      <Version>2.0.5-alpha-0</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="..\..\..\libs\pngcs\pngcs.projitems" Label="Shared" />
