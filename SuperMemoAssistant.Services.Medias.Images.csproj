@@ -41,7 +41,7 @@
       <Version>0.2.1.51</Version>
     </PackageReference>
     <PackageReference Include="SuperMemoAssistant.Interop">
-      <Version>2.0.5-alpha.9</Version>
+      <Version>2.0.5.13</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="..\..\..\libs\pngcs\pngcs.projitems" Label="Shared" />
